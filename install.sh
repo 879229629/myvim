@@ -23,4 +23,7 @@ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.s
 echo "Install plugins via neobundle"
 vim +NeoBundleInstall +qall
 
+echo "Build YouCompleteMe."
+bash ${DIR}/build_ycm.sh
+
 echo "All done. Please check the log and do further steps."
