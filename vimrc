@@ -115,6 +115,11 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'sjl/gundo.vim'
 nnoremap <Leader>u :GundoToggle<CR>
 
+" ctrlp: https://github.com/kien/ctrlp.vim
+NeoBundle 'kien/ctrlp.vim'
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 
 " vim-airline
 " https://github.com/bling/vim-airline
