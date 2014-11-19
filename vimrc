@@ -25,6 +25,7 @@ set smarttab
 set expandtab       " expand tab to space
 set backspace=indent,eol,start                                    " More powerful backspacing
 set t_Co=256                                                      " Explicitly tell vim that the terminal has 256 colors "
+let g:solarized_termcolors=256
 
 set wrap
 set textwidth=0 wrapmargin=0
